@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>PR_7</title>
+            <link rel="stylesheet" href="styles.css">
+            <style>
+                .p{
+                   resize: none;
+                }
+
+                .t{
+                    resize: both; max-width: 200px; max-height: 100px;
+                }
+            </style>
+        </head>
+            <body>
+                <form>
+                    <input type="text" placeholder="плейсхолдер"><br><br>
+                    <input type="text" value="Value"><br><br>
+                    <input type="text" placeholder="disabled" disabled><br><br>
+                    <input type="password" value="123456"><br><br>
+                    <textarea placeholder="Введите текст"></textarea><br><br>
+                    <input type="button" value="Кнопка через тег button"><br><br>
+                    <input type="submit" value="Кнопка через тег submit"><br><br>
+                </form>
+
+
+<br><br><br><br><br><br><br><br>
+                
+
+                    <form>
+                    <input type="text"  placeholder="плейсхолдер" id="pr">
+                    <label for="pr">Это метка для инпута - нажми на меня - и инпут получит фокус!</label><br><br>
+                    <input type="submit" value="Отправить на сервер">
+                </form>
+
+<br><br><br><br><br><br><br><br>
+
+
+                <form>
+                    <input type="checkbox" id="ch1"> <label for="ch1">Это метка для чекбокса: нажми на меня - чекбокс сменит галочку!</label><br><br>
+                    <label><input type="checkbox" checked>Я отмечена по умолчанию!</label><br><br>
+                    <label><input type="checkbox" disabled>Я disabled!</label><br><br><br><br><br><br>
+                <fieldset>
+                    <p>Это группа радиокнопок - только одна из них может быть отмечена!</p>
+                    <label><input type="radio" name="pr"> Это метка для радио</label><br><br>
+                    <label><input type="radio" name="pr"> Это метка для радио</label><br><br>
+                    <input type="submit" value="Отправить на сервер">
+                </fieldset>
+                </form>
+            
+<br><br><br><br><br><br><br><br>
+
+
+                <form>
+                    <select>
+                        <option>Нью Йорк</option>
+                    </select>
+
+                    <select multiple name="city[]">
+                        <option>Нью Йорк</option>
+                        <option>Киев</option>
+                        <option>Москва</option>
+                    </select>
+
+                    <select multiple name="city[]">
+                        <option>Нью Йорк</option>
+                        <option>Киев</option>
+                        <option>Москва</option>
+                        <option>Минск</option>
+                        <option>Варшава</option>
+                    </select>
+                    <input type="submit" value="Отправить на сервер">
+                </form>
+
+                
+<br><br><br><br><br><br><br><br>
+
+
+                <form>
+                    <label><input type="file" value="Обзор...">Файл не выбран.</label>
+                    <input type="submit" value="Отправить на севрвер">
+                </form>
+
+
+<br><br><br><br><br><br><br><br>
+
+
+                <form>
+            <fieldset>
+                <legend>Выберите кнопочку</legend>
+                    <input type="radio" name="radio1">
+                    <input type="radio" name="radio1">
+                    <input type="radio" name="radio1">
+                    <input type="text" placeholder="Ваше имя...">
+            </fieldset>
+
+<br><br>
+            <fieldset>
+                <legend>Выберите ещё кнопочку</legend>                    
+                    <input type="radio" name="radio2">
+                    <input type="radio" name="radio2">
+                    <input type="radio" name="radio2">
+                    <input type="radio" name="radio2" disabled>
+                    <input type="radio" name="radio2" disabled>
+            </fieldset>
+<br><br>
+                    <input type="submit" value="Отправить на сервер">
+                </form>
+
+
+<br><br><br><br><br><br><br><br>
+
+
+                <form>
+                    <textarea class="t">Ограничена ширина и высота</textarea><br><br>
+                    <textarea class="p"></textarea><br><br>
+                    <textarea ></textarea><br><br>
+                    <textarea></textarea><br><br>
+                </form>
+            </body>
+    </html>
