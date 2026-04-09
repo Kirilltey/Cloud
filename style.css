@@ -35,3 +35,35 @@ font-size:16px;
 color:#63bfe0; 
 text-align:center;
 }
+
+h1 {
+    color: darkred;
+    font-weight: bold;}
+h2 {
+    color: darkred;
+    font-weight: bold;}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;}
+.ramka {
+    width: 745px;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    float: left;}
+a {color: blue; text-decoration: underline;}
+a:hover {color: coral;}
+.first {
+    color: red;
+    font-size: 14px;}
+.second {
+    color: green;
+    font-size: 14px;}
+.avtor {
+    color: black;
+    font-style: italic;
+    float: right;
+    font-size: 12px;
+    padding-right: 50px;}
